@@ -9,7 +9,6 @@
   --primary-icon-color: #afb1b8;
   --accent-icon-color: #ffffff;
 }
-
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-color-text);
@@ -63,11 +62,6 @@ ul {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .visually-hidden {

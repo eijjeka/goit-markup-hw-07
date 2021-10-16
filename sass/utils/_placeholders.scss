@@ -1,0 +1,36 @@
+%list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+%link {
+  display: block;
+  text-decoration: none;
+}
+
+%btn {
+  cursor: pointer;
+  border: none;
+  color: var(--main-color-title);
+}
+
+%img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+%title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+%section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
