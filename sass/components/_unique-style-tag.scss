@@ -1,3 +1,9 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: $primary-color-text;
+  letter-spacing: 0.03em;
+}
+
 h1,
 h2,
 h3,
@@ -8,6 +14,10 @@ p,
 ul {
   margin: 0;
   padding: 0;
+}
+
+.img {
+  @extend %img;
 }
 
 .visually-hidden {
