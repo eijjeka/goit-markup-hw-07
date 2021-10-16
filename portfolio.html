@@ -11,10 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
@@ -55,18 +52,19 @@
     <!-- Основной контент-->
     <main>
         <h1 class="visually-hidden">Портфолио</h1>
-        <section class="section">
+        <section class="cards-section">
             <div class="container">
                 <ul class="list-btn list">
-                    <li class="list-btn__item"><button class="list-btn__option active" type="button">Все</button></li>
+                    <li class="list-btn__item"><button class="list-btn__option list-btn__option--active"
+                            type="button">Все</button></li>
                     <li class="list-btn__item"><button class="list-btn__option" type="button">Веб-сайты</button></li>
                     <li class="list-btn__item"><button class="list-btn__option" type="button">Приложения</button></li>
                     <li class="list-btn__item"><button class="list-btn__option" type="button">Дизайн</button></li>
                     <li class="list-btn__item"><button class="list-btn__option" type="button">Маркетинг</button></li>
                 </ul>
-                <ul class="card-list list">
-                    <li class="card-list__item">
-                        <a href="#" class="card-list__link link">
+                <ul class="cards-list list">
+                    <li class="cards-list__item">
+                        <a href="#" class="cards-list__link link">
                             <div class="card-overlay">
                                 <img class="img" src="./images/portfolio/img-1.jpg" alt="Ноутбук" width="370"
                                     height="240">
@@ -81,8 +79,8 @@
                             </div>
                         </a>
                     </li>
-                    <li class="card-list__item">
-                        <a href="#" class="card-list__link link">
+                    <li class="cards-list__item">
+                        <a href="#" class="cards-list__link link">
                             <div class="card-overlay">
                                 <img class="img" src="./images/portfolio/img-2.jpg" alt="Ноутбук" width="370"
                                     height="240">
@@ -97,8 +95,8 @@
                             </div>
                         </a>
                     </li>
-                    <li class="card-list__item">
-                        <a href="#" class="card-list__link link">
+                    <li class="cards-list__item">
+                        <a href="#" class="cards-list__link link">
                             <div class="card-overlay">
                                 <img class="img" src="./images/portfolio/img-3.jpg" alt="Ноутбук" width="370"
                                     height="240">
@@ -113,8 +111,8 @@
                             </div>
                         </a>
                     </li>
-                    <li class="card-list__item">
-                        <a href="#" class="card-list__link link">
+                    <li class="cards-list__item">
+                        <a href="#" class="cards-list__link link">
                             <div class="card-overlay">
                                 <img class="img" src="./images/portfolio/img-4.jpg" alt="Ноутбук" width="370"
                                     height="240">
@@ -129,8 +127,8 @@
                             </div>
                         </a>
                     </li>
-                    <li class="card-list__item">
-                        <a href="#" class="card-list__link link">
+                    <li class="cards-list__item">
+                        <a href="#" class="cards-list__link link">
                             <div class="card-overlay">
                                 <img class="img" src="./images/portfolio/img-5.jpg" alt="Ноутбук" width="370"
                                     height="240">
@@ -145,8 +143,8 @@
                             </div>
                         </a>
                     </li>
-                    <li class="card-list__item">
-                        <a href="#" class="card-list__link link">
+                    <li class="cards-list__item">
+                        <a href="#" class="cards-list__link link">
                             <div class="card-overlay">
                                 <img class="img" src="./images/portfolio/img-6.jpg" alt="Ноутбук" width="370"
                                     height="240">
@@ -161,8 +159,8 @@
                             </div>
                         </a>
                     </li>
-                    <li class="card-list__item">
-                        <a href="#" class="card-list__link link">
+                    <li class="cards-list__item">
+                        <a href="#" class="cards-list__link link">
                             <div class="card-overlay">
                                 <img class="img" src="./images/portfolio/img-7.jpg" alt="Ноутбук" width="370"
                                     height="240">
@@ -177,8 +175,8 @@
                             </div>
                         </a>
                     </li>
-                    <li class="card-list__item">
-                        <a href="#" class="card-list__link link">
+                    <li class="cards-list__item">
+                        <a href="#" class="cards-list__link link">
                             <div class="card-overlay">
                                 <img class="img" src="./images/portfolio/img-8.jpg" alt="Ноутбук" width="370"
                                     height="240">
@@ -193,8 +191,8 @@
                             </div>
                         </a>
                     </li>
-                    <li class="card-list__item">
-                        <a href="#" class="card-list__link link">
+                    <li class="cards-list__item">
+                        <a href="#" class="cards-list__link link">
                             <div class="card-overlay">
                                 <img class="img" src="./images/portfolio/img-1.jpg" alt="Ноутбук" width="370"
                                     height="240">
@@ -248,8 +246,8 @@
                         </a>
                     </li>
                     <li class="social-list__item">
-                        <a href="https://www.twitter.com" class="social-list__link social-list__link--bg active"
-                            target="_blank">
+                        <a href="https://www.twitter.com"
+                            class="social-list__link social-list__link--bg social-list__link--current" target="_blank">
                             <svg class="social-list__icon">
                                 <use href="./images/symbol-defs.svg#icon-twitter"></use>
                             </svg>
@@ -273,10 +271,10 @@
                     </li>
                 </ul>
             </div>
-            <form class="footer__form">
-                <strong class="footer__title">Подпишитесь на рассылку</strong>
-                <input class="form__input" name="email" type="email" placeholder="E-mail" autocomplete="off">
-                <button class="form__button btn" type="submit">Подписаться<svg class="form__icon--submit">
+            <form class="form-footer">
+                <strong class="form-footer__title footer__title">Подпишитесь на рассылку</strong>
+                <input class="form-footer__input" name="email" type="email" placeholder="E-mail" autocomplete="off">
+                <button class="form-footer__button btn" type="submit">Подписаться<svg class="form-footer__icon--submit">
                         <use href="./images/symbol-defs.svg#icon-send"></use>
                     </svg>
                 </button>
